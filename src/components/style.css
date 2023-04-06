@@ -1,0 +1,54 @@
+#live {
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin: 15px auto;
+  box-sizing: border-box;
+  
+  
+  
+}
+
+#block0{
+  font-size: 10px;
+  text-align: left;
+}
+#name{
+  font-family: 'Roboto';
+  width:200px;
+}
+#block1, #block2 {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+#score {
+  margin-left: 75px;
+  width:200px
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.date {
+  width: 33%;
+  text-align: left;
+}
+
+.type {
+  width: 33%;
+  text-align: center;
+  color: red;
+  font-weight: 900;
+}
+
+.status {
+  width: 33%;
+  text-align: right;
+}
